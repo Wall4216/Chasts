@@ -1,0 +1,95 @@
+.dafr {
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: hsl(0, 2%, 12%);
+}
+.btn-outline-darl {
+    color: white;
+    border-color: white;
+}
+#hero {
+    width: 100%;
+    height: 100%;
+    background: url(https://images.pexels.com/photos/4252668/pexels-photo-4252668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html{
+    width: 100%;
+    height: 100%;
+    background: url(https://images.pexels.com/photos/4252668/pexels-photo-4252668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jaj:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#hero:before {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#hero .container {
+    padding-top: 75px;
+}
+#hero h1{
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: white;
+    font-family: "Baskerville Old Face", sans-serif;
+}
+#hero h2 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+#hero .icon-box h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+#hero .icon-box h3 a {
+    color: white;
+}
+#hero .icon-box h3 a:hover {
+    color: #ffc451;
+}
+.icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+}
+h3, h4 {
+    font-family: 'Merriweather', serif;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media  screen and (min-width: 2000px) {
+    #jaj {
+        margin: 15px;
+    }
+
+}
+
+@media  screen and (min-width: 900px) {
+    #jaj {
+        margin: 0;
+    }
+
+}
