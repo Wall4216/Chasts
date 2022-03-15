@@ -1,5 +1,4 @@
 .dafr {
-    border-color: black;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: white;
@@ -11,21 +10,24 @@
     color: white;
     border-color: white;
 }
-#hero {
+main {
     width: 100%;
     height: 100%;
-    background: url(https://images.pexels.com/photos/112854/pexels-photo-112854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(imgonline-com-ua-Color-filter-VOrKc8NBHKpX.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-html{
+.kasha{
     width: 100%;
     height: 100%;
-    background: url(https://images.pexels.com/photos/112854/pexels-photo-112854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(imgonline-com-ua-Color-filter-VOrKc8NBHKpX.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.jaj:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
 #hero:before {
     content:"";
@@ -73,24 +75,8 @@ h3, h4 {
     font-family: 'Merriweather', serif;
 
 }
-
 img {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-.okno {
-    width: 100%;
-    height: 100%;
-    background: url(https://images.pexels.com/photos/112854/pexels-photo-112854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-html{
-    width: 100%;
-    height: 100%;
-    background: url(https://images.pexels.com/photos/112854/pexels-photo-112854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
